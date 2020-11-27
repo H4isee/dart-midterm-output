@@ -22,19 +22,19 @@ String getPlayerMove() {
 
     case "R":
 
-      return "✊";
+      return "⛰️";
 
       break;
 
     case "P":
 
-      return "✋";
+      return "📃";
 
       break;
 
     case "S":
 
-      return "✌️";
+      return "✂️";
 
       break;
 
@@ -64,19 +64,19 @@ String getComputerMove() {
 
     case 0:
 
-      return "✊";
+      return "⛰️";
 
       break;
 
     case 1:
 
-      return "✋";
+      return "📃";
 
       break;
 
     case 2:
 
-      return "✌️";
+      return "✂️";
 
       break;
 
@@ -98,15 +98,15 @@ String whoWon(String playerMove, String computerMove) {
 
     return "Tie";
 
-  } else if (playerMove == "✊" && computerMove == "✂️") {
+  } else if (playerMove == "⛰️" && computerMove == "✂️") {
 
     return "You Win!";
 
-  } else if (playerMove == "✌️" && computerMove == "📃") {
+  } else if (playerMove == "✂️" && computerMove == "📃") {
 
     return "You Win!";
 
-  } else if (playerMove == "✋" && computerMove == "⛰️") {
+  } else if (playerMove == "📃" && computerMove == "⛰️") {
 
     return "You Win!";
 
